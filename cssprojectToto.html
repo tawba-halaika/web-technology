@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="cssprototo.css">
+    </head>
+    <body style="background-color: rgb(216, 142, 212);">
+        <head> Web Technology </head>
+        
+        <h1>Welcome to CSS Project </h1>
+        <h2> by Tawba Halaika </h2>
+         <br> <h3> C++ Programming  Questions: 
+            </h3> 
+            <div>
+<p>1.	Write a program that calculate and print the sum , product , average , min and max 
+    values from input n number from keyboard .(use arrays) </p>
+    <p> Sample: 
+        Enter # of numbers: 3 <br>
+        Num1: 4 <br>
+        Num2: 5 <br>
+        Num3: 6 <br>
+        <br> Sum: 15, product: 120 , avg: 5 , min: 4 , max: 6 
+        </p>
+            </div>
+            <div>
+<p>2.	Write a program that prints the following shapes when calling the function of each shape: <br> <br>
+    1- an empty right-angled triangle <br>
+    2- a filled inverted right-angled triangle <br>
+    3- a filled parallelepiped <br>
+    4- an unfilled rectangle. <br>
+    <p>Use the switch: Print the first shape if input is 1, print the second shape
+ if input is 2, third shape if input is 3, and shape 4 if input is 4,
+  and exit the program if input is 5 (you must have 4 function in your program ,
+  Shape dimensions must be entered from the keyboard,
+  The list of options should appear to choose the shape to be drawn
+ at the beginning of the program execution(by do while) ) .</p>
+</p>
+
+            </div>
+            <div>
+                3.	Write a program that finds the solution for quadratic equation.
+                (a x^2+-b Y+-c) at first calculate b^2-4ac ,
+                then Based on its value we find
+                 if there is no solutions or one  solution or more than one .
+            </div>
+            <div>
+                <p>4.	Given as input, an integer number of second ,
+                     write a function to print as output the equivalent time in hours, min and sec.</p>
+                     <p>
+                        sample: 7322      output: 2 hours 2 minutes and 2 seconds. 
+                     </p>
+            </div>
+            <div>
+                <p>
+                    5.	Write a program to do the following : display a selection menu as  follow :
+                </p>
+                <p>
+                    1-	Print your name and registrations number <br>
+2-	Find the sum of odd number from 1 to n (input n)  <br>
+3-	Reverse the digits of any integer number <br>
+4-	Exit  <br>
+                </p><p>Define 3 functions in your program : menu() , findSum() and reverse().</p>
+            </div>
+            <div>
+                6-	Find the GCD( greatest common deviser) for two int numbers. </div>
+            <div>
+             <p>    7-	Write a recursive function that reads from the keyboard a set of
+                 characters and print them backward.
+                 Use full_stop (.) char to determine the program. </p>
+                 <p> Enter a char ( .to end):  A  <br>
+                    Enter a char ( .to end):   B <br>
+                     Enter a char ( .to end):   C <br>
+                     Enter a char ( .to end):   . <br>
+                     CBA <br>
+                    </p> 
+            </div>
+            <div>
+               <p> 8-	Write a program that Find the square of each elements in the array  </p>
+               <p> Input: 0 1 2 3 <br>
+                Output : 0 1 4 9 <br>  <br>
+                </p>
+                <p>9-	Write a program puts the summation i in each elements sum[i] of the array sum.</p>
+                <p> Input: j: 0 1 2 3 4 5  <br>
+                    Output: sum[j]: 0 1 3 6 10 15  <br><br> 
+                    </p>
+            </div>
+             <br><br><br><br><br> 
+
+            <h3 class="center"> Solved Examples </h3>
+            <div>
+                <p> 	Simple calculator by switch </p>
+                <p> int main() { <br>
+                    double num1, num2; 
+                    char operation; <br>
+                    cout << "Enter the first number: ";
+                    cin >> num1; <br>
+                    cout << "Enter the second number: ";
+                    cin >> num2; <br>
+                    cout << "Enter the operation (+, -, *, /): ";
+                    cin >> operation; <br>
+                    double result;
+                    switch (operation) { <br>
+                  case '+':  result = num1 + num2; break; <br>
+                      case '-':  result = num1 - num2;  break; <br>
+                      case '*':  result = num1 * num2; break; <br>
+                      case '/': result = num1 / num2; break; <br>
+                      default: cout << "Invalid operator" << endl; <br>
+                        return 1;  } <br> 
+                    // Print the result <br>
+                    cout << "Result: " << result << endl; <br>
+                    return 0;} <br>
+                  </p>
+            </div>
+            <div><p>	The input char is vowel or not by switch (vowel is a,u,i,o,e)</p><p>
+                int main() { <br>
+                    // Declare a variable to hold the input character <br>
+                    char ch; <br>
+                    cout << "Enter a character: "; <br>
+                    cin >> ch; <br>
+                    switch (ch) { <br>
+                      case 'a': <br>
+                      case 'e': <br>
+                      case 'i': <br>
+                      case 'o': <br>
+                      case 'u': cout << ch << " is a vowel." << endl;  break; <br>
+                      default: cout << ch << " is not a vowel." << endl;   break;} <br>
+                    return 0; <br>}  <br>
+            </p></div>
+            <div><p>	Find revers number from given number from keyboard (using while) .</p>
+            <p id="prg"> int main() { <br>
+                int num, rev = 0; <br>
+              cout << "Enter a number: "; <br>
+               cin >> num; <br>
+                while (num > 0) { <br>
+                  rev = rev * 10 + num % 10; <br>
+                  num /= 10;  <br>
+                } <br>
+                cout << "The reversed number is: " << rev << endl; <br>
+                return 0; <br>
+              } <br>
+              </p></div>
+              <img src="pro.jpg"></img>
+    </body>
+</html>

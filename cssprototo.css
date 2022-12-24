@@ -1,0 +1,44 @@
+div{
+    background-color: rgb(148, 56, 128);
+    padding: 1cm;
+    font-size:large;
+    text-decoration:underline;
+    margin: 1cm;
+    border-color: black;
+    border-radius: 4cm;
+
+}
+h1,h2{
+    text-align: center;
+    text-decoration-color: rgb(12, 12, 12);
+    font-family:cursive;
+
+}
+h3{
+    border-radius: 1cm;
+    background-color: rgba(116, 6, 92, 0.836);
+    font-size:180%;
+    padding:2mm;
+    margin: 5%;
+    
+}
+#prg {
+    text-align: center;
+    font-size: larger;
+    color: rgb(150, 51, 125);
+    text-transform: lowercase;
+}
+h3.center{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    border: 2px solid rgb(141, 88, 124);  
+border-radius:5px;  
+padding:10px; 
+max-width:100%;  
+height:auto;  
+
+opacity:0.9; animation-duration: inherit; 
+
+}
